@@ -1,0 +1,4 @@
+1:John:Alan:Doe:Sales	1:jadoe:John:Alan:Doe:Sales	Good Example with middle name
+1234:Mary::Smith:IT	1234:msmith:Mary::Smith:IT	Good example without middle name
+2345:Bill:Cosby:Pharmacy	2345:bcosby:Bill::Cosby:Pharmacy	Bad example, missing one column
+3456:Bruce:Dickinson:Music:Rock	3456:bdickinson:Bruce:Dickinson:Music:Rock	Bad example, 5 columns but instead of middle name differend data
