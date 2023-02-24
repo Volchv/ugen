@@ -21,17 +21,17 @@ Test_data.txt is needed for testing purposes. Format is: "input", "expected resu
 
 <b>Ugen.py</b> 
 <p>Can be launch via command line : 
-python3 ugen.py --output my_output.txt input_file1.txt input_file3.txt
+<i>python3 ugen.py --output my_output.txt input_file1.txt input_file3.txt</i><BR>
 Accept optional parameter for output file (-o ,--output). If not provided , default file is output_file.txt.
 Another parameter is Input files,  this is mandatory , it can be more than one.</p>
 
 <b>testunit.py</b>
 <p>Can be launch via command line : 
-python3 testunit.py
+<i>python3 testunit.py</i><BR>
 It will run tests on defs in ugen.py . It generate HTML report. </p>
 
 <b>test.py</b>
 <p>Can be launch via command line :
-python3 test.py ugen.py test_data.txttest_data.txt is described in first part of this document. 
+<i>python3 test.py ugen.py test_data.txt</i><BR>test_data.txt is described in first part of this document. 
 Results are information about tests on differend input cases provided in test_data.txt</p>
 
